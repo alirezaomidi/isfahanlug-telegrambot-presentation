@@ -1,7 +1,6 @@
-class: center, middle
-background-color: #0088cc
+class: center, middle, inverse
 
-![Telegram Logo](img/logo.png)
+![TelegramLogo](img/logo.png)
 
 # How to create a Telegram Bot
 
@@ -9,6 +8,8 @@ background-color: #0088cc
 
 ### Alireza Omidi
 ### Mahdi Fooladgar
+
+[![github](img/github.ico)](https://github.com/alirezaomidi/telegram-ilugbot)
 
 ---
 
