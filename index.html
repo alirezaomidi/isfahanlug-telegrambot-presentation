@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+        @import url('font/yanone-kaffeesatz');
+        @import url('font/droid-serif');
+        @import url('font/ubuntu-mono');
+
+        body { font-family: 'Droid Serif'; }
+        h1, h2, h3 {
+            font-family: 'Yanone Kaffeesatz';
+            font-weight: normal;
+        }
+        .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+        img[alt=getMe] { height: 270px; width: 800px }
+        img[alt=getUpdates] { height: 469px; width: 800px }
+    </style>
+</head>
+<body>
+    <script src="js/remark-latest.min.js">
+    </script>
+    <script>
+        var slideshow = remark.create({
+            sourceUrl: 'slide.md'
+        });
+    </script>
+</body>
+</html>
