@@ -10,7 +10,7 @@ class: center, middle, inverse
 ### Alireza Omidi
 ### Mahdi Fooladgar
 
-[![github](img/github.ico)](https://github.com/alirezaomidi/telegram-ilugbot)
+[![github](img/github.ico)](https://github.com/alirezaomidi/isfahanlug-telegrambot-presentation)
 
 ---
 
