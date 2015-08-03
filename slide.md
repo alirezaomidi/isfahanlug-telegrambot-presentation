@@ -76,10 +76,49 @@ class: center
 2. Enter name of the Bot; e.g. **Isfahan LUG**
 --
 
-3. Enter the username of the bot; e.g. **ilugbot**
+3. Enter the username of the bot; e.g. **ilugbot**. (It should end in 'bot')
 --
 
 4. Write down the token.
+
+---
+
+# The Botfather
+
+### Set commands
+1. `/setcommands`
+--
+
+2. send **All** of the commands in the following format:
+```yaml
+command1 - Description
+command2 - Another description
+```
+
+---
+
+# The Botfather
+
+### Set Description
+The description is a text, up to 512 characters long, which describes your bot.  
+It will be shown at first of every conversation with the bot.
+--
+
+1. `/setdescription`
+2. Send the description of the bot to botfather
+--
+
+
+### Set About Text
+The about text is a up to 120 characters long text which will be shown at your bot's profile.
+--
+
+1. `/setabouttext`
+2. Send the about text of the bot to botfather
+--
+
+
+.right[.bottom[check out other commands with `/help`]]
 
 ---
 
@@ -131,9 +170,9 @@ class: center
 
 ### Sweet Python!
 
-In order to make requests, we need an interface. Here we use `python-telegram-bot` which is written in Python.
+In order to write out bot, we need an interface. Here we use `python-telegram-bot` which is written in Python.
 
-It is under development and is well written.
+It is under development and is well written. Good documentation and has wiki.  
 check out the [project site](https://github.com/leandrotoledo/python-telegram-bot).
 --
 
@@ -141,6 +180,7 @@ check out the [project site](https://github.com/leandrotoledo/python-telegram-bo
 ```bash
 pip install --upgrade python-telegram-bot
 ```
+    * Install [python pip](https://pip.pypa.io/en/latest/installing.html) first.
 --
 
 * Using
@@ -187,8 +227,10 @@ class: center, middle
 # Thank you
 
 ### Alireza Omidi
+[alireza530@gmail.com](mailto:alireza530@gmail.com)  
 [Github](https://github.com/alirezaomidi)  
 [@alirezageek](https://twitter.com/alirezageek)  
 ### Mahdi Fooladgar
+[mahdifooladgar@compland.ir](mailto:mahdifooladgar@compland.ir)  
 [Github](https://github.com/professormahi)  
 [@professormahi](https://twitter.com/professormahi)
