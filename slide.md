@@ -1,3 +1,4 @@
+name: How to create a Telegram Bot
 class: center, middle, inverse
 
 ![TelegramLogo](img/logo.png)
@@ -9,7 +10,7 @@ class: center, middle, inverse
 ### Alireza Omidi
 ### Mahdi Fooladgar
 
-[![github](img/github.ico)](https://github.com/alirezaomidi/telegram-ilugbot)
+[![github](img/github.ico)](https://github.com/alirezaomidi/isfahanlug-telegrambot-presentation)
 
 ---
 
@@ -30,10 +31,11 @@ class: center, middle, inverse
 > They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things.
 >
 > -- <cite>Telegram blog</cite>
---
 
+---
 
-### Differences with humans:
+# Differences with humans:
+
 1. No online status and no last seen timestamps.
 --
 
@@ -53,11 +55,19 @@ class: center, middle, inverse
 
 ---
 
+class: center
+
 # The Botfather
-> #### One bot to rule them all, One bot to find them...
+> #### One Bot to rule them all, One Bot to find them
+> #### One Bot to bring them all and in the darkness bind them
 >
 > -- <cite>The Lord of the Bots, J.R.R.Tolkien</cite>
---
+
+![Botfather](img/botfather.png)
+
+---
+
+# The Botfather
 
 ### Create a new bot
 1. `/newbot`
@@ -70,7 +80,6 @@ class: center, middle, inverse
 --
 
 4. Write down the token.
-
 
 ---
 
@@ -122,15 +131,17 @@ class: center, middle, inverse
 
 ### Sweet Python!
 
-In order to make requests, we need an interface. Here we use Python-Telegram-Bot which is written in Python.
+In order to make requests, we need an interface. Here we use `python-telegram-bot` which is written in Python.
 
 It is under development and is well written.
 check out the [project site](https://github.com/leandrotoledo/python-telegram-bot).
+--
 
 * Installing
 ```bash
 pip install --upgrade python-telegram-bot
 ```
+--
 
 * Using
 ```python
@@ -167,16 +178,17 @@ pip install --upgrade python-telegram-bot
 
 class: center, middle
 
-# Time to write your own bot
+# Time to write your own bot!
 
 ---
 
+class: center, middle
+
 # Thank you
+
 ### Alireza Omidi
 [Github](https://github.com/alirezaomidi)  
-[@alirezageek](https://twitter.com/alirezageek)
-
-
+[@alirezageek](https://twitter.com/alirezageek)  
 ### Mahdi Fooladgar
 [Github](https://github.com/professormahi)  
 [@professormahi](https://twitter.com/professormahi)
